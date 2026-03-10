@@ -1,0 +1,4 @@
+In Aufgabe 3 waren alle Dateien mit ?? markiert (untracked).
+
+In Aufgabe 4 sind foo.txt und bar.txt mit A markiert (added).
+qux.txt ist weiterhin ?? (nicht hinzugefügt).
