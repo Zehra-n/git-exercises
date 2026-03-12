@@ -1,0 +1,26 @@
+Anwendungsfall 1:
+Kurze Übersicht über die letzten Commits anzeigen.
+
+Befehl:
+git log --oneline
+
+Dieser Befehl zeigt eine kurze Liste der Commits mit Hash und Commit-Nachricht.
+
+
+Anwendungsfall 2:
+Die letzten 3 Commits anzeigen.
+
+Befehl:
+git log -n 3
+
+Damit kann man schnell die neuesten Änderungen im Repository sehen.
+
+
+Anwendungsfall 3:
+Die Commit-Historie mit Branch-Struktur anzeigen.
+
+Befehl:
+git log --oneline --graph --all
+
+Dieser Befehl zeigt die Commit-Historie grafisch und hilft dabei,
+Branches und Merges besser zu verstehen.
