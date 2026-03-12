@@ -1,0 +1,11 @@
+1.
+Beim Löschen mit rm erkennt Git nur, dass eine Datei im Arbeitsverzeichnis gelöscht wurde.
+Beim Löschen mit git rm wird die Datei sowohl gelöscht als auch direkt für den nächsten Commit vorgemerkt.
+
+2.
+Um die Änderungen rückgängig zu machen, kann man git restore oder git checkout verwenden.
+Falls die Löschung bereits gestaged wurde, muss zuerst git restore --staged verwendet werden.
+
+3.
+Dateien können mit mv oder git mv umbenannt werden.
+git mv ist vorzuziehen, weil Git die Umbenennung direkt erkennt und korrekt im Versionsverlauf speichert.
